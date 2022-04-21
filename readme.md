@@ -15,5 +15,7 @@
 ### config.properties
 \test\resources\config.properties
 
+### Uruchamienie testów
+Aby uruchomić wyłącznie testy API bądź tylko testy GUI należy ustawić zmienną środowiskową CUCUMBER_FILTER_TAGS.
 
 

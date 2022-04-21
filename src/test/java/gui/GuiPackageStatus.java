@@ -100,7 +100,7 @@ public class GuiPackageStatus {
             try {
                 throw new Exception("Can't create snapshot:" + e.getMessage());
             } catch (Exception ex) {
-                throw new RuntimeException(ex);
+                throw new RuntimeException("Failed to create screenshot: " + ex.getMessage());
             }
         }
     }
